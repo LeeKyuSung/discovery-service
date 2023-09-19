@@ -8,11 +8,11 @@ on:
 
 env:
   AWS_REGION: ap-northeast-2
-  ECR_REPOSITORY: discovery
+  ECR_REPOSITORY: discovery-service
   ECS_SERVICE: DiscoveryService
-  ECS_CLUSTER: DiscoveryCluster
-  ECS_TASK_DEFINITION: DiscoveryTaskDefinition
-  CONTAINER_NAME: discovery-container
+  ECS_CLUSTER: KyusungCluster
+  ECS_TASK_DEFINITION: DiscoveryServiceTaskDefinition
+  CONTAINER_NAME: discovery-service-container
 
 permissions:
   contents: read
