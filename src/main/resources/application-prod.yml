@@ -1,2 +1,9 @@
 server:
   port: 80
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://discovery.leekyusung.kr/eureka/
+    register-with-eureka: true
+    fetch-registry: true
