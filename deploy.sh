@@ -1,4 +1,4 @@
-kill $(cat /home/leekyusung/discovery-service/pid.file) &&
-  rm /home/leekyusung/discovery-service/pid.file | true
+kill $(cat /home/leekyusung/service/discovery/pid.file) &&
+  rm /home/leekyusung/service/discovery/pid.file | true
 
 nohup ./start.sh &
